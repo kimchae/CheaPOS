@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace CheaPOS
 {
-    public partial class Form1 : Form
+    public partial class mainFrm : Form
     {
-        public Form1()
+        public mainFrm()
         {
             InitializeComponent();
+        }
+
+        private void mainFrm_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
